@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228,228,228);
+    overflow: hidden;
+}
+
+.s-login{
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 32.3px;
+    box-shadow: 0px 0px 32px 5px rgba(148,148,148,1);
+    display: flex;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+.d-login1{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+    
+}
+.d-login2{
+    width: 60%;
+    height: 100%;
+    background-color: #00587A;
+    background-image: url(images/desenho4.png);
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.input-container {
+   position: relative;
+   margin: auto;
+   margin: 20px;
+}
+
+.input-container svg{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    margin-left: 100%;
+    margin-top: -35px;
+    position: relative;
+}
+
+.f-login{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.f-login a{
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+.input-box div{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em; 
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-box input:focus~label,
+.input-box input:not(:placeholder-shown)~label{
+    top: -5px;
+    color: #00587A;
+
+}
+
+
+.input-box:has(input:focus~label),
+.input-box:has(input:not(:placeholder-shown)~label){
+    border-bottom: 2px solid #00587A;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-box .icon{
+    position: absolute;
+    bottom: .3em;
+    right: 8px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.input-box .icon svg{
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+    fill: #162938;
+}
+
+.btn-login{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    height: 3.8em;
+    border-radius: 0.6em;
+    border-style: none;
+    background: rgb(255,215,0);
+    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,188,0,1) 100%);
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,215,0,1) 100%);
+    transition: .5s;
+}
+
+.logo{
+    width: 60%;
+    margin-top: 4em;
+}
