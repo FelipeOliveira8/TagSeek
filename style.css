@@ -16,6 +16,7 @@ body{
     display: flex;
     border-radius: 5px;
     border-radius: 10px;
+    background-color: transparent;
 }
 .d-login1{
     width: 40%;
@@ -146,16 +147,75 @@ body{
     border-radius: 0.6em;
     border-style: none;
     background: rgb(255,215,0);
-    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,188,0,1) 100%);
     cursor: pointer;
+    transition: 200ms;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn-login:hover{
-    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,215,0,1) 100%);
-    transition: .5s;
+    background: rgb(255, 234, 0);
+    transition: 200ms;
+    transform: scale(1.1);
 }
 
 .logo{
     width: 60%;
     margin-top: 4em;
 }
+
+@media (max-width: 1536px) {
+    
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    
+    .d-login1{
+        width: 55%;
+    }
+
+    .d-login2{
+        width: 45%;
+    }
+
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .s-login{
+        flex-direction: column;
+    }
+
+    .d-login1{
+        width: 100%;
+        border-radius: 0.625em;
+    }
+
+    .d-login2{
+        display: none;
+    }
+
+    body{
+        overflow-y: hidden;
+    }
+
+    .input-box .icon svg{
+        width: 1em;
+        height: 1em;
+    }
+}
+  
+  /* sm */
+  @media (max-width: 640px) {
+    
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    
+  }
