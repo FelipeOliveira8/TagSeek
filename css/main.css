@@ -152,7 +152,7 @@ body{
     transition: .5s;
     margin-left: 2em;
     margin-right: 2em;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 .sala-g h1{
     margin: auto;
@@ -165,3 +165,84 @@ body{
     height: 8.5em;
     transition: .5s;
 }
+
+.salas-main input{
+    width: 30em;
+    margin: auto;
+    margin-top: 3em;
+    height: 3em;
+    border-radius: 10em;
+    border-style: none;
+    box-shadow: 0px 3px 17px 0px rgba(0,0,0,0.75);
+    font-size: 1em;
+    padding-left: 1em;
+    background-image: url(../images/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    transition: .5s;
+}
+.salas-main input:focus{
+    outline-color: #00587A;
+    box-shadow: 0px 3px 17px 0px #00587A;
+    transition: .5s;
+    outline-width: 1em;
+}
+.sub-menu-wrap{
+    position: absolute;
+    right: 1%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin-right: 0.5em;
+    border-radius: 0.6em;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.nome-perfil{
+    font-weight: 500;
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+.nome-perfil p{
+    text-align: center;
+}
+.user-info svg{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 2.75em;
+}
+.sub-menu-link{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 0.8em 12em;
+    width: 4em;
+    height: 2em;
+    background-color: red;
+    line-height: 1.8em;
+    color: white;
+    border-radius: 1em;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+
