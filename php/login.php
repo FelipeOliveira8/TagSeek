@@ -36,5 +36,5 @@
         </div>
     </section>
 </body>
-<script src="js/showPassword.js"></script>
+<script src="../js/showPassword.js"></script>
 </html>
