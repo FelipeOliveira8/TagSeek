@@ -14,7 +14,7 @@
         <div class="sub-menu-wrap2" id="subMenu2">
             <button onclick="alert('sala')">Cadastrar Sala</button>
             <button onclick="alert('item')">Cadastrar Item</button>
-            <a href="#"><button>Cadastrar Colaborador</button></a>
+            <a href="cadastroUser.php"><button>Cadastrar Colaborador</button></a>
             <a href="#"><button>Ver Colaboradores</button></a>
             <!-- 
                 <div class="sub-menu2">
