@@ -11,6 +11,9 @@
     <section class="cUsection">
         <div class="d-login1">
             <form class="f-cadUser" action="#">
+                <div class="inputImage">
+                    <input type="file">
+                </div>
                 <div div class="inputGroup">
                     <input autocomplete="off" required="" type="text" name="nome" id="cadUserNome">
                     <label for="name">Name</label>
@@ -20,9 +23,10 @@
                     <label for="name">Email</label>
                 </div>
                 <div div class="inputGroup">
-                    <input autocomplete="off" required="" type="password" name="senha" id="cadUserSenha">
+                    <input autocomplete="off" required="" type="text" name="senha" id="cadUserSenha">
                     <label for="name">Senha</label>
                 </div>
+                <input type="submit" class="s-button">
                 <!-- 
                     <input type="image">
                 <input type="text" name="nome" id="cadUserNome">
