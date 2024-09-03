@@ -19,15 +19,7 @@
             <button onclick="set_form(2, 'Novo tipo', 'form_label')">Cadastrar Item</button>
             <a href="cadastroUser.php"><button>Cadastrar Colaborador</button></a>
             <a href="#"><button>Ver Colaboradores</button></a>
-            <!-- 
-                <div class="sub-menu2">
-                <div class="user-info2">
-                    <div class="nome-perfil2">
-                        <h1>Banana</h1> 
-                    </div>
-                </div>
-                </div>
-            -->
+
         </div>
         </nav>
         <nav class="profile" onclick="toggleMenu(); toggle_transition()">
@@ -136,10 +128,10 @@
                 <nav onclick="close_form()" class="close">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
                 </nav>
-                <form class="pop-up-inline" action="#">
+                <form class="pop-up-inline" action="utilities/cadastrar.php">
                 <input type="hidden" name="request_id" id="request_id" value="-1">
                 <div class="inputGroup">
-                    <input autocomplete="off" required="" type="text" name="nome" placeholder="" id="cadUserNome">
+                    <input autocomplete="off" type="text" name="nome" placeholder="" id="nome" required>
                     <label for="name" id="form_label">Nome do item</label>
                 </div>
                 <input type="submit" class="cad-button" value="Cadastrar">
