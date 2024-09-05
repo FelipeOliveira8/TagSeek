@@ -19,15 +19,19 @@
                     </div>
             </div>   
                 <div div class="inputGroup">
-                    <input autocomplete="off" required="" type="text" name="nome" placeholder="" id="cadUserNome">
+                    <input autocomplete="off" required="" type="text" name="nome" placeholder="" id="nome">
                     <label for="name">Name</label>
                 </div>
                 <div div class="inputGroup">
-                    <input autocomplete="off" required="" type="email" name="email" placeholder="" id="cadUserEmail">
+                    <input autocomplete="off" required="" type="text" name="NIF" placeholder="" id="NIF">
+                    <label for="name">Nif:</label>
+                </div>
+                <div div class="inputGroup">
+                    <input autocomplete="off" required="" type="email" name="email" placeholder="" id="email">
                     <label for="name">Email</label>
                 </div>
                 <div div class="inputGroup">
-                    <input autocomplete="off" required="" type="text" name="senha" placeholder="" id="cadUserSenha">
+                    <input autocomplete="off" required="" type="text" name="senha" placeholder="" id="senha">
                     <label for="name">Senha</label>
                 </div>
                 <input type="submit" class="s-button" value="Cadastrar">
